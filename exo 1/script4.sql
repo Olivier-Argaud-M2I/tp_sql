@@ -1,0 +1,4 @@
+
+use  exemple  ;
+
+describe personne;
