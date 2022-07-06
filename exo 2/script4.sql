@@ -1,0 +1,3 @@
+
+DROP DATABASE IF EXISTS exemple2;
+CREATE DATABASE exemple2;
