@@ -1,11 +1,35 @@
 
 USE exemple2;
 
-INSERT INTO client (nom,prenom,description) VALUES ( 'hebrard','freddy','grand maitre yoda');
-INSERT INTO client (nom,prenom,description) VALUES ( 'rulliere','maxime','padawan');
-INSERT INTO client (nom,prenom,description) VALUES ( 'argaud','olivier','jar jar binks');
+DELETE FROM commande WHERE commande.id;
+DELETE FROM client WHERE client.id;
+DELETE FROM magasin WHERE magasin.id;
+
+/*
+DELETE FROM commande ;
+DELETE FROM client ;
+DELETE FROM magasin ;
+*/
+INSERT INTO client (id,nom,prenom,description) VALUES ( 1,'hebrard','freddy','grand maitre yoda');
+INSERT INTO client (id,nom,prenom,description) VALUES ( 2,'rulliere','maxime','padawan');
+INSERT INTO client (id,nom,prenom,description) VALUES ( 3,'argaud','olivier','jar jar binks');
     
-INSERT INTO magasin (nom,ville,code_postal,tel) VALUES ( "alibaba's cavern",'chambon sur lignon','43400','01 23 45 67 89');
+INSERT INTO magasin (id,nom,ville,code_postal,tel) VALUES ( 1,"alibaba's cavern",'chambon sur lignon','43400','01 23 45 67 89');
     
 INSERT INTO commande (nom,id_client,id_magasin,description) VALUES ( 'coder pour les nuls',2,1,'la base pour ceux qui comprennent rien');
 INSERT INTO commande (nom,id_client,id_magasin,description) VALUES ( 'coder pour les nuls',3,1,'la base pour ceux qui comprennent rien');
+
+
+
+
+/*
+
+INSERT INTO
+
+UPDATE
+	SET colonne = '2019'
+    WHERE nom = 'Musk'  -- bien penser a la close where
+
+DELETE FROM
+
+*/
