@@ -12,3 +12,11 @@ create table Personne(
     primary key(id)
 )
 ENGINE = InnoDB DEFAULT CHARSET=utf8mb3;
+
+
+
+
+/*
+ALTER TABLE Personne
+	PRIMARY KEY (id)
+*/
