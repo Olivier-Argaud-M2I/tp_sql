@@ -41,7 +41,7 @@ CREATE TABLE `client`(
 	cli_id INT PRIMARY KEY AUTO_INCREMENT,
     cli_nom VARCHAR(20) NOT NULL,
     cli_prenom VARCHAR(20) NOT NULL,
-    cli_adresse INT NOT NULL,
+    cli_adresse INT ,
     cli_tel VARCHAR(20) NOT NULL,
     cli_date_naissance DATE
 );
@@ -50,7 +50,7 @@ CREATE TABLE `client`(
 	com_id INT PRIMARY KEY AUTO_INCREMENT,
     com_reference VARCHAR(20) NOT NULL,
     com_date DATE,
-    com_client INT NOT NULL
+    com_client INT 
 );
 
 ALTER table `client`

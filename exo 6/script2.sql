@@ -11,19 +11,21 @@ INSERT INTO adresse(adr_id, adr_numero, adr_rue, adr_ville, adr_code_postal) VAL
     (4,453,'rue du dauphiné','Lyon',69001),
     (5,27,'rue de la république','Toulon',83000),
     (6,19,'rue de Brest','Rennes',35000),
-    (7,35,'rue du 22 novembre','Strasbourg',67000);
+    (7,35,'rue du 22 novembre','Strasbourg',67000),
+    (8,221,'baker street','London',00000);
     
 
 
 
-INSERT INTO `client`(cli_id, cli_nom, cli_prenom, cli_adresse, cli_tel) VALUES
-	( 1,'hebrard','freddy',1,'01 23 45 67 81'),
-	( 2,'rulliere','maxime',2,'01 23 45 67 82'),
-	( 3,'argaud','olivier',3,'01 23 45 67 83'),
-	( 4,'doe1','john',4,'01 23 45 67 84'),
-	( 5,'doe2','john',5,'01 23 45 67 85'),
-	( 6,'doe3','john',6,'01 23 45 67 86'),
-	( 7,'dolet','melvin',7,'01 23 45 67 87');
+INSERT INTO `client`(cli_id, cli_nom, cli_prenom, cli_adresse, cli_tel, cli_date_naissance) VALUES
+	( 1,'hebrard','freddy',1,'01 23 45 67 81','0-3-24'),
+	( 2,'rulliere','maxime',2,'01 23 45 67 82','1985-7-04'),
+	( 3,'dolet','melvin',7,'01 23 45 67 87','1995-7-04'),
+	( 4,'argaud','olivier',3,'01 23 45 67 83','1981-9-30'),
+	( 5,'doe1','john',4,'01 23 45 67 84','1950-7-04'),
+	( 6,'doe2','john',5,'01 23 45 67 85','1960-7-04'),
+	( 7,'doe3','john',6,'01 23 45 67 86','1970-7-04'),
+	( 8,'doe4','john',null,'01 23 45 67 86','1970-7-04');
     
     
 
