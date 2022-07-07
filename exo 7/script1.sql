@@ -1,8 +1,14 @@
 
+-- création de la table
+
 DROP DATABASE IF EXISTS exemple7;
 CREATE DATABASE exemple7;
 
 USE exemple7;
+
+-- lancer les scripts client, commande et commande_ligne
+
+
 /*
 Obtenir l’utilisateur ayant le prénom “Muriel” et le mot de passe “test11”, sachant que l’encodage du mot de passe est effectué avec l’algorithme Sha1.
 Obtenir la liste de tous les produits qui sont présent sur plusieurs commandes.

@@ -5,8 +5,3 @@ SELECT * from client
 WHERE client.prenom = 'Muriel' AND client.password = sha1('test11');
 
 
-/*
-SELECT sha1('test11');
-SELECT client.password FROM client
-WHERE client.nom = 'Muriel'
-*/
