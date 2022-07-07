@@ -1,8 +1,14 @@
 
+
+TRUNCATE TABLE commande;
+TRUNCATE TABLE client;
+TRUNCATE TABLE adresse;
+
+/*
 DELETE FROM commande WHERE com_id;
 DELETE FROM `client` WHERE cli_id;
 DELETE FROM adresse WHERE adr_id;
-
+*/
 
 INSERT INTO adresse(adr_id, adr_numero, adr_rue, adr_ville, adr_code_postal) VALUES
 	(1,24,'rue du potager','Paris',75001),
@@ -56,7 +62,14 @@ INSERT INTO commande(com_id, com_reference, com_client, com_date) VALUES
     ( 19,'ref4165456463',6,'2008-7-04'),
     ( 20,'ref4156645463',6,'2008-7-04'),
     ( 21,'ref4156645463',6,'2008-7-04'),
-    ( 22,'ref4156123463',6,'2008-7-04');
+    ( 22,'ref4156123463',6,'2008-7-04'),
+    
+	( 23,'ref4177763',null,'2007-7-04'),
+    ( 24,'ref415588463',null,'2008-7-04'),
+    ( 25,'ref41654446463',null,'2009-7-04'),
+    ( 26,'ref4111145463',null,'2010-7-04'),
+    ( 27,'ref4122463',null,'2011-7-04'),
+    ( 28,'ref415333463',null,'2012-7-04');
 	
     
     

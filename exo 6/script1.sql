@@ -31,7 +31,7 @@ USE exemple6;
 
 CREATE TABLE adresse(
 	adr_id INT PRIMARY KEY AUTO_INCREMENT,
-    adr_numero INT NULL,
+    adr_numero INT NOT NULL,
     adr_rue VARCHAR(30) NOT NULL,
     adr_ville VARCHAR(30) NOT NULL,
     adr_code_postal INT NOT NULL
